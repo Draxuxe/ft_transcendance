@@ -1,3 +1,0 @@
-/*
-    Ici pour creer le script de postgresql si jamais la db existe pas
-*/
