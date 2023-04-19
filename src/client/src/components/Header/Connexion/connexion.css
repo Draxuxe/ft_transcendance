@@ -1,0 +1,53 @@
+.div-link{
+    width: 45px;
+    height: 22px;
+
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70%;
+    line-height: 140%;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.div-signup{
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    color: #FFFFFF;
+
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: auto;
+    height: 25px;
+
+    background: #8449BF;
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 6px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.div-signup:hover{
+    background: #00CCCC;
+    height: 20px;
+    border-radius: 6px;
+}

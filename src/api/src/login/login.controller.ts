@@ -1,4 +1,4 @@
-import { Controller, Get, Redirect } from '@nestjs/common'
+import { Controller, Get, Param, Redirect } from '@nestjs/common'
 
 @Controller('/login')
 export class LogController {
