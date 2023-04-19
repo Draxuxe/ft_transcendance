@@ -1,6 +1,9 @@
+import React from 'react';
 import { Link } from 'react-router-dom'
 import '../header.css'
 import './connexion.css'
+import logo from './log.png'
+
 
 export default function Connexion() {
     return (
@@ -9,10 +12,8 @@ export default function Connexion() {
                 <div>
                     <Link to="/login" className='div-link'>Login</Link>
                 </div>
-                <div>
-                    <Link to="/signin" className='div-link'>
-                        <button className='div-signup'>SignUp</button>
-                    </Link>
+                <div className="div-signin">
+                    <Link to="/signin" className='div-link'><button className='div-signup'><img class='div-logo-link' src={logo}/>SignUp</button></Link>
                 </div>
             </div>
         </nav>
